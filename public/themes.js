@@ -5,7 +5,7 @@ export const themes = {
     // Região Norte
     acre_dark: {
         name: 'AC Escuro',
-        '--color-primary-rgb': '0, 128, 0', /* Verde da bandeira AC */
+        '--color-primary-rgb': '0, 128, 0',
         '--color-primary-focus-rgb': '0, 100, 0',
         '--color-primary-darker-rgb': '0, 70, 0',
         '--color-primary-light-rgb': '50, 180, 50',
@@ -20,16 +20,18 @@ export const themes = {
         '--color-text-placeholder': '#6B7280',
         '--color-text-timer': '#FFFFFF',
         '--color-border-subtle-rgb': '255, 255, 255',
-        '--color-break-short': '255, 255, 0', /* Amarelo */
-        '--color-break-long': '255, 0, 0', /* Vermelho */
+        '--color-break-short': '255, 255, 0',
+        '--color-break-long': '255, 0, 0',
+        '--border-glass': '1px solid transparent',
+        '--backdrop-filter-glass': 'none',
     },
     alagoas_light: {
         name: 'AL Claro',
-        '--color-primary-rgb': '0, 0, 139', /* Azul Marinho da bandeira AL */
+        '--color-primary-rgb': '0, 0, 139',
         '--color-primary-focus-rgb': '0, 0, 115',
         '--color-primary-darker-rgb': '0, 0, 90',
         '--color-primary-light-rgb': '50, 50, 180',
-        '--color-bg-main': '#F0F8FF', /* Azul muito claro */
+        '--color-bg-main': '#F0F8FF',
         '--color-bg-shell': '#FFFFFF',
         '--color-bg-panel': '#F8F8FF',
         '--color-bg-input': '#E8F0F8',
@@ -40,12 +42,14 @@ export const themes = {
         '--color-text-placeholder': '#AAAAAA',
         '--color-text-timer': '#000000',
         '--color-border-subtle-rgb': '0, 0, 0',
-        '--color-break-short': '255, 0, 0', /* Vermelho */
-        '--color-break-long': '255, 255, 255', /* Branco */
+        '--color-break-short': '255, 0, 0',
+        '--color-break-long': '255, 255, 255',
+        '--border-glass': '1px solid transparent',
+        '--backdrop-filter-glass': 'none',
     },
     amapa_dark: {
         name: 'AP Escuro',
-        '--color-primary-rgb': '255, 204, 0', /* Amarelo da bandeira AP */
+        '--color-primary-rgb': '255, 204, 0',
         '--color-primary-focus-rgb': '230, 180, 0',
         '--color-primary-darker-rgb': '200, 150, 0',
         '--color-primary-light-rgb': '255, 220, 70',
@@ -60,12 +64,14 @@ export const themes = {
         '--color-text-placeholder': '#6B7280',
         '--color-text-timer': '#FFFFFF',
         '--color-border-subtle-rgb': '255, 255, 255',
-        '--color-break-short': '0, 0, 139', /* Azul Marinho */
-        '--color-break-long': '0, 128, 0', /* Verde */
+        '--color-break-short': '0, 0, 139',
+        '--color-break-long': '0, 128, 0',
+        '--border-glass': '1px solid transparent',
+        '--backdrop-filter-glass': 'none',
     },
     amazonas_light: {
         name: 'AM Claro',
-        '--color-primary-rgb': '0, 0, 139', /* Azul Marinho da bandeira AM */
+        '--color-primary-rgb': '0, 0, 139',
         '--color-primary-focus-rgb': '0, 0, 115',
         '--color-primary-darker-rgb': '0, 0, 90',
         '--color-primary-light-rgb': '50, 50, 180',
@@ -80,72 +86,80 @@ export const themes = {
         '--color-text-placeholder': '#9CA3AF',
         '--color-text-timer': '#111827',
         '--color-border-subtle-rgb': '0, 0, 0',
-        '--color-break-short': '255, 0, 0', /* Vermelho */
-        '--color-break-long': '255, 255, 255', /* Branco */
+        '--color-break-short': '255, 0, 0',
+        '--color-break-long': '255, 255, 255',
+        '--border-glass': '1px solid transparent',
+        '--backdrop-filter-glass': 'none',
     },
     bahia_dark: {
         name: 'BA Escuro',
-        '--color-primary-rgb': '204, 0, 0', /* Vermelho da bandeira BA */
+        '--color-primary-rgb': '204, 0, 0',
         '--color-primary-focus-rgb': '170, 0, 0',
         '--color-primary-darker-rgb': '140, 0, 0',
         '--color-primary-light-rgb': '230, 30, 30',
-        '--color-bg-main': 'radial-gradient(circle at center, #003366 0%, #000033 70%)', /* Azul escuro */
+        '--color-bg-main': 'radial-gradient(circle at center, #003366 0%, #000033 70%)',
         '--color-bg-shell': '#002A5C',
         '--color-bg-panel': '#001A3A',
         '--color-bg-input': '#004080',
         '--color-bg-input-light': '#0050A0',
-        '--color-text-base': '#D1D5DB', /* Cinza claro */
+        '--color-text-base': '#D1D5DB',
         '--color-text-header': '#FFFFFF',
         '--color-text-muted': '#9CA3AF',
         '--color-text-placeholder': '#6B7280',
         '--color-text-timer': '#FFFFFF',
         '--color-border-subtle-rgb': '255, 255, 255',
-        '--color-break-short': '255, 255, 255', /* Branco */
-        '--color-break-long': '0, 51, 102', /* Azul */
+        '--color-break-short': '255, 255, 255',
+        '--color-break-long': '0, 51, 102',
+        '--border-glass': '1px solid transparent',
+        '--backdrop-filter-glass': 'none',
     },
     brasil_dark: {
         name: 'BR Escuro',
-        '--color-primary-rgb': '0, 155, 58', /* Verde Bandeira */
+        '--color-primary-rgb': '0, 155, 58',
         '--color-primary-focus-rgb': '0, 130, 48',
         '--color-primary-darker-rgb': '0, 100, 38',
         '--color-primary-light-rgb': '77, 184, 108',
-        '--color-bg-main': 'radial-gradient(circle at center, #1a202c 0%, #000000 70%)', /* Quase preto */
-        '--color-bg-shell': '#1F2937', /* Azul Escuro */
-        '--color-bg-panel': '#111827', /* Azul ainda mais escuro */
-        '--color-bg-input': '#374151', /* Cinza Azulado */
-        '--color-bg-input-light': '#4B5563', /* Cinza Azulado mais claro */
-        '--color-text-base': '#D1D5DB', /* Cinza claro */
-        '--color-text-header': '#FFFFFF', /* Branco */
-        '--color-text-muted': '#9CA3AF', /* Cinza */
-        '--color-text-placeholder': '#6B7280', /* Cinza mais escuro */
-        '--color-text-timer': '#FFFFFF', /* Branco */
+        '--color-bg-main': 'radial-gradient(circle at center, #1a202c 0%, #000000 70%)',
+        '--color-bg-shell': '#1F2937',
+        '--color-bg-panel': '#111827',
+        '--color-bg-input': '#374151',
+        '--color-bg-input-light': '#4B5563',
+        '--color-text-base': '#D1D5DB',
+        '--color-text-header': '#FFFFFF',
+        '--color-text-muted': '#9CA3AF',
+        '--color-text-placeholder': '#6B7280',
+        '--color-text-timer': '#FFFFFF',
         '--color-border-subtle-rgb': '255, 255, 255',
-        '--color-break-short': '255, 221, 0', /* Amarelo da bandeira */
-        '--color-break-long': '0, 39, 118', /* Azul da bandeira */
+        '--color-break-short': '255, 221, 0',
+        '--color-break-long': '0, 39, 118',
+        '--border-glass': '1px solid transparent',
+        '--backdrop-filter-glass': 'none',
     },
     brasil_light: {
         name: 'BR Claro',
-        '--color-primary-rgb': '255, 221, 0', /* Amarelo Bandeira */
+        '--color-primary-rgb': '255, 221, 0',
         '--color-primary-focus-rgb': '230, 199, 0',
         '--color-primary-darker-rgb': '200, 170, 0',
         '--color-primary-light-rgb': '255, 235, 77',
-        '--color-bg-main': '#FEFCE8', /* Amarelo muito claro */
+        '--color-bg-main': '#FEFCE8',
         '--color-bg-shell': '#FFFFFF',
         '--color-bg-panel': '#FFFBEB',
         '--color-bg-input': '#F7FAFC',
         '--color-bg-input-light': '#EDF2F7',
-        '--color-text-base': '#4A5568', /* Cinza escuro */
-        '--color-text-header': '#1A202C', /* Quase preto */
-        '--color-text-muted': '#718096', /* Cinza */
-        '--color-text-placeholder': '#A0AEC0', /* Cinza claro */
-        '--color-text-timer': '#1A202C', /* Quase preto */
+        '--color-text-base': '#4A5568',
+        '--color-text-header': '#1A202C',
+        '--color-text-muted': '#718096',
+        '--color-text-placeholder': '#A0AEC0',
+        '--color-text-timer': '#1A202C',
         '--color-border-subtle-rgb': '0, 0, 0',
-        '--color-break-short': '0, 155, 58', /* Verde da bandeira */
-        '--color-break-long': '0, 39, 118', /* Azul da bandeira */
+        '--color-break-short': '0, 155, 58',
+        '--color-break-long': '0, 39, 118',
+        '--border-glass': '1px solid transparent',
+        '--backdrop-filter-glass': 'none',
     },
     ceara_dark: {
         name: 'CE Escuro',
-        '--color-primary-rgb': '0, 0, 205', /* Azul da bandeira CE */
+        '--color-primary-rgb': '0, 0, 205',
         '--color-primary-focus-rgb': '0, 0, 180',
         '--color-primary-darker-rgb': '0, 0, 150',
         '--color-primary-light-rgb': '50, 50, 255',
@@ -160,12 +174,14 @@ export const themes = {
         '--color-text-placeholder': '#6B7280',
         '--color-text-timer': '#FFFFFF',
         '--color-border-subtle-rgb': '255, 255, 255',
-        '--color-break-short': '0, 128, 0', /* Verde */
-        '--color-break-long': '255, 255, 0', /* Amarelo */
+        '--color-break-short': '0, 128, 0',
+        '--color-break-long': '255, 255, 0',
+        '--border-glass': '1px solid transparent',
+        '--backdrop-filter-glass': 'none',
     },
     distritofederal_dark: {
         name: 'DF Escuro',
-        '--color-primary-rgb': '0, 128, 0', /* Verde da bandeira DF */
+        '--color-primary-rgb': '0, 128, 0',
         '--color-primary-focus-rgb': '0, 100, 0',
         '--color-primary-darker-rgb': '0, 70, 0',
         '--color-primary-light-rgb': '50, 180, 50',
@@ -180,12 +196,14 @@ export const themes = {
         '--color-text-placeholder': '#6B7280',
         '--color-text-timer': '#FFFFFF',
         '--color-border-subtle-rgb': '255, 255, 255',
-        '--color-break-short': '255, 255, 0', /* Amarelo */
-        '--color-break-long': '255, 255, 255', /* Branco */
+        '--color-break-short': '255, 255, 0',
+        '--color-break-long': '255, 255, 255',
+        '--border-glass': '1px solid transparent',
+        '--backdrop-filter-glass': 'none',
     },
     espiritosanto_light: {
         name: 'ES Claro',
-        '--color-primary-rgb': '255, 105, 180', /* Rosa da bandeira ES */
+        '--color-primary-rgb': '255, 105, 180',
         '--color-primary-focus-rgb': '230, 80, 150',
         '--color-primary-darker-rgb': '200, 60, 120',
         '--color-primary-light-rgb': '255, 130, 200',
@@ -200,12 +218,14 @@ export const themes = {
         '--color-text-placeholder': '#AAAAAA',
         '--color-text-timer': '#000000',
         '--color-border-subtle-rgb': '0, 0, 0',
-        '--color-break-short': '255, 255, 255', /* Branco */
-        '--color-break-long': '0, 0, 255', /* Azul */
+        '--color-break-short': '255, 255, 255',
+        '--color-break-long': '0, 0, 255',
+        '--border-glass': '1px solid transparent',
+        '--backdrop-filter-glass': 'none',
     },
     goias_light: {
         name: 'GO Claro',
-        '--color-primary-rgb': '255, 255, 0', /* Amarelo da bandeira GO */
+        '--color-primary-rgb': '255, 255, 0',
         '--color-primary-focus-rgb': '230, 230, 0',
         '--color-primary-darker-rgb': '200, 200, 0',
         '--color-primary-light-rgb': '255, 255, 77',
@@ -220,12 +240,14 @@ export const themes = {
         '--color-text-placeholder': '#9CA3AF',
         '--color-text-timer': '#111827',
         '--color-border-subtle-rgb': '0, 0, 0',
-        '--color-break-short': '0, 128, 0', /* Verde */
-        '--color-break-long': '255, 255, 255', /* Branco */
+        '--color-break-short': '0, 128, 0',
+        '--color-break-long': '255, 255, 255',
+        '--border-glass': '1px solid transparent',
+        '--backdrop-filter-glass': 'none',
     },
     maranhao_dark: {
         name: 'MA Escuro',
-        '--color-primary-rgb': '220, 20, 60', /* Vermelho da bandeira MA */
+        '--color-primary-rgb': '220, 20, 60',
         '--color-primary-focus-rgb': '170, 14, 38',
         '--color-primary-darker-rgb': '140, 10, 30',
         '--color-primary-light-rgb': '240, 50, 90',
@@ -240,12 +262,14 @@ export const themes = {
         '--color-text-placeholder': '#6B7280',
         '--color-text-timer': '#FFFFFF',
         '--color-border-subtle-rgb': '255, 255, 255',
-        '--color-break-short': '255, 255, 255', /* Branco */
-        '--color-break-long': '0, 0, 139', /* Azul Marinho */
+        '--color-break-short': '255, 255, 255',
+        '--color-break-long': '0, 0, 139',
+        '--border-glass': '1px solid transparent',
+        '--backdrop-filter-glass': 'none',
     },
     matogrosso_dark: {
         name: 'MT Escuro',
-        '--color-primary-rgb': '255, 204, 0', /* Amarelo da bandeira MT */
+        '--color-primary-rgb': '255, 204, 0',
         '--color-primary-focus-rgb': '230, 180, 0',
         '--color-primary-darker-rgb': '200, 150, 0',
         '--color-primary-light-rgb': '255, 220, 70',
@@ -260,12 +284,14 @@ export const themes = {
         '--color-text-placeholder': '#6B7280',
         '--color-text-timer': '#FFFFFF',
         '--color-border-subtle-rgb': '255, 255, 255',
-        '--color-break-short': '0, 128, 0', /* Verde */
-        '--color-break-long': '0, 0, 139', /* Azul Marinho */
+        '--color-break-short': '0, 128, 0',
+        '--color-break-long': '0, 0, 139',
+        '--border-glass': '1px solid transparent',
+        '--backdrop-filter-glass': 'none',
     },
     matogrossodosul_light: {
         name: 'MS Claro',
-        '--color-primary-rgb': '0, 0, 139', /* Azul Marinho da bandeira MS */
+        '--color-primary-rgb': '0, 0, 139',
         '--color-primary-focus-rgb': '0, 0, 115',
         '--color-primary-darker-rgb': '0, 0, 90',
         '--color-primary-light-rgb': '50, 50, 180',
@@ -280,32 +306,36 @@ export const themes = {
         '--color-text-placeholder': '#AAAAAA',
         '--color-text-timer': '#000000',
         '--color-border-subtle-rgb': '0, 0, 0',
-        '--color-break-short': '0, 128, 0', /* Verde */
-        '--color-break-long': '255, 255, 255', /* Branco */
+        '--color-break-short': '0, 128, 0',
+        '--color-break-long': '255, 255, 255',
+        '--border-glass': '1px solid transparent',
+        '--backdrop-filter-glass': 'none',
     },
     minasgerais_light: {
         name: 'MG Claro',
-        '--color-primary-rgb': '200, 16, 46', /* Vermelho da bandeira MG */
+        '--color-primary-rgb': '200, 16, 46',
         '--color-primary-focus-rgb': '170, 14, 38',
         '--color-primary-darker-rgb': '140, 10, 30',
         '--color-primary-light-rgb': '220, 40, 70',
-        '--color-bg-main': '#F9FAFB', /* Branco */
+        '--color-bg-main': '#F9FAFB',
         '--color-bg-shell': '#FFFFFF',
         '--color-bg-panel': '#F3F4F6',
         '--color-bg-input': '#FFFFFF',
         '--color-bg-input-light': '#E5E7EB',
-        '--color-text-base': '#374151', /* Cinza escuro */
-        '--color-text-header': '#111827', /* Quase preto */
+        '--color-text-base': '#374151',
+        '--color-text-header': '#111827',
         '--color-text-muted': '#6B7280',
         '--color-text-placeholder': '#9CA3AF',
         '--color-text-timer': '#111827',
         '--color-border-subtle-rgb': '0, 0, 0',
-        '--color-break-short': '10, 185, 129', /* Verde */
-        '--color-break-long': '139, 92, 246', /* Roxo */
+        '--color-break-short': '10, 185, 129',
+        '--color-break-long': '139, 92, 246',
+        '--border-glass': '1px solid transparent',
+        '--backdrop-filter-glass': 'none',
     },
     para_dark: {
         name: 'PA Escuro',
-        '--color-primary-rgb': '220, 20, 60', /* Vermelho da bandeira PA */
+        '--color-primary-rgb': '220, 20, 60',
         '--color-primary-focus-rgb': '170, 14, 38',
         '--color-primary-darker-rgb': '140, 10, 30',
         '--color-primary-light-rgb': '240, 50, 90',
@@ -320,12 +350,14 @@ export const themes = {
         '--color-text-placeholder': '#6B7280',
         '--color-text-timer': '#FFFFFF',
         '--color-border-subtle-rgb': '255, 255, 255',
-        '--color-break-short': '255, 255, 255', /* Branco */
-        '--color-break-long': '0, 0, 139', /* Azul Marinho */
+        '--color-break-short': '255, 255, 255',
+        '--color-break-long': '0, 0, 139',
+        '--border-glass': '1px solid transparent',
+        '--backdrop-filter-glass': 'none',
     },
     paraiba_dark: {
         name: 'PB Escuro',
-        '--color-primary-rgb': '200, 16, 46', /* Vermelho da bandeira PB */
+        '--color-primary-rgb': '200, 16, 46',
         '--color-primary-focus-rgb': '170, 14, 38',
         '--color-primary-darker-rgb': '140, 10, 30',
         '--color-primary-light-rgb': '220, 40, 70',
@@ -340,12 +372,14 @@ export const themes = {
         '--color-text-placeholder': '#6B7280',
         '--color-text-timer': '#FFFFFF',
         '--color-border-subtle-rgb': '255, 255, 255',
-        '--color-break-short': '0, 0, 0', /* Preto */
-        '--color-break-long': '255, 255, 255', /* Branco */
+        '--color-break-short': '0, 0, 0',
+        '--color-break-long': '255, 255, 255',
+        '--border-glass': '1px solid transparent',
+        '--backdrop-filter-glass': 'none',
     },
     parana_dark: {
         name: 'PR Escuro',
-        '--color-primary-rgb': '0, 0, 205', /* Azul da bandeira PR */
+        '--color-primary-rgb': '0, 0, 205',
         '--color-primary-focus-rgb': '0, 0, 180',
         '--color-primary-darker-rgb': '0, 0, 150',
         '--color-primary-light-rgb': '50, 50, 255',
@@ -360,32 +394,36 @@ export const themes = {
         '--color-text-placeholder': '#6B7280',
         '--color-text-timer': '#FFFFFF',
         '--color-border-subtle-rgb': '255, 255, 255',
-        '--color-break-short': '255, 255, 255', /* Branco */
-        '--color-break-long': '0, 128, 0', /* Verde */
+        '--color-break-short': '255, 255, 255',
+        '--color-break-long': '0, 128, 0',
+        '--border-glass': '1px solid transparent',
+        '--backdrop-filter-glass': 'none',
     },
     pernambuco_light: {
         name: 'PE Claro',
-        '--color-primary-rgb': '255, 255, 0', /* Amarelo da bandeira PE */
+        '--color-primary-rgb': '255, 255, 0',
         '--color-primary-focus-rgb': '230, 230, 0',
         '--color-primary-darker-rgb': '200, 200, 0',
         '--color-primary-light-rgb': '255, 255, 77',
-        '--color-bg-main': '#F0F8FF', /* Azul muito claro */
+        '--color-bg-main': '#F0F8FF',
         '--color-bg-shell': '#FFFFFF',
         '--color-bg-panel': '#F8F8FF',
         '--color-bg-input': '#E8F0F8',
         '--color-bg-input-light': '#DCE6F0',
-        '--color-text-base': '#333333', /* Cinza escuro */
-        '--color-text-header': '#000000', /* Preto */
+        '--color-text-base': '#333333',
+        '--color-text-header': '#000000',
         '--color-text-muted': '#666666',
         '--color-text-placeholder': '#AAAAAA',
         '--color-text-timer': '#000000',
         '--color-border-subtle-rgb': '0, 0, 0',
-        '--color-break-short': '255, 0, 0', /* Vermelho */
-        '--color-break-long': '0, 0, 205', /* Azul */
+        '--color-break-short': '255, 0, 0',
+        '--color-break-long': '0, 0, 205',
+        '--border-glass': '1px solid transparent',
+        '--backdrop-filter-glass': 'none',
     },
     piaui_light: {
         name: 'PI Claro',
-        '--color-primary-rgb': '255, 255, 0', /* Amarelo da bandeira PI */
+        '--color-primary-rgb': '255, 255, 0',
         '--color-primary-focus-rgb': '230, 230, 0',
         '--color-primary-darker-rgb': '200, 200, 0',
         '--color-primary-light-rgb': '255, 255, 77',
@@ -400,32 +438,36 @@ export const themes = {
         '--color-text-placeholder': '#9CA3AF',
         '--color-text-timer': '#111827',
         '--color-border-subtle-rgb': '0, 0, 0',
-        '--color-break-short': '0, 128, 0', /* Verde */
-        '--color-break-long': '0, 0, 255', /* Azul */
+        '--color-break-short': '0, 128, 0',
+        '--color-break-long': '0, 0, 255',
+        '--border-glass': '1px solid transparent',
+        '--backdrop-filter-glass': 'none',
     },
     riodejaneiro_light: {
         name: 'RJ Claro',
-        '--color-primary-rgb': '0, 42, 140', /* Azul da bandeira RJ */
+        '--color-primary-rgb': '0, 42, 140',
         '--color-primary-focus-rgb': '0, 35, 115',
         '--color-primary-darker-rgb': '0, 28, 90',
         '--color-primary-light-rgb': '50, 80, 180',
-        '--color-bg-main': '#F0F8FF', /* Azul muito claro */
+        '--color-bg-main': '#F0F8FF',
         '--color-bg-shell': '#FFFFFF',
         '--color-bg-panel': '#F8F8FF',
         '--color-bg-input': '#E8F0F8',
         '--color-bg-input-light': '#DCE6F0',
-        '--color-text-base': '#333333', /* Cinza escuro */
-        '--color-text-header': '#000000', /* Preto */
+        '--color-text-base': '#333333',
+        '--color-text-header': '#000000',
         '--color-text-muted': '#666666',
         '--color-text-placeholder': '#AAAAAA',
         '--color-text-timer': '#000000',
         '--color-border-subtle-rgb': '0, 0, 0',
-        '--color-break-short': '255, 221, 0', /* Amarelo (sol) */
-        '--color-break-long': '200, 16, 46', /* Vermelho (brasão) */
+        '--color-break-short': '255, 221, 0',
+        '--color-break-long': '200, 16, 46',
+        '--border-glass': '1px solid transparent',
+        '--backdrop-filter-glass': 'none',
     },
     riograndedonorte_light: {
         name: 'RN Claro',
-        '--color-primary-rgb': '255, 221, 0', /* Amarelo da bandeira RN */
+        '--color-primary-rgb': '255, 221, 0',
         '--color-primary-focus-rgb': '230, 199, 0',
         '--color-primary-darker-rgb': '200, 170, 0',
         '--color-primary-light-rgb': '255, 235, 77',
@@ -440,12 +482,14 @@ export const themes = {
         '--color-text-placeholder': '#9CA3AF',
         '--color-text-timer': '#111827',
         '--color-border-subtle-rgb': '0, 0, 0',
-        '--color-break-short': '0, 128, 0', /* Verde */
-        '--color-break-long': '255, 0, 0', /* Vermelho */
+        '--color-break-short': '0, 128, 0',
+        '--color-break-long': '255, 0, 0',
+        '--border-glass': '1px solid transparent',
+        '--backdrop-filter-glass': 'none',
     },
     riograndedosul_dark: {
         name: 'RS Escuro',
-        '--color-primary-rgb': '200, 16, 46', /* Vermelho da bandeira RS */
+        '--color-primary-rgb': '200, 16, 46',
         '--color-primary-focus-rgb': '170, 14, 38',
         '--color-primary-darker-rgb': '140, 10, 30',
         '--color-primary-light-rgb': '220, 40, 70',
@@ -460,12 +504,14 @@ export const themes = {
         '--color-text-placeholder': '#6B7280',
         '--color-text-timer': '#FFFFFF',
         '--color-border-subtle-rgb': '255, 255, 255',
-        '--color-break-short': '0, 128, 0', /* Verde */
-        '--color-break-long': '255, 255, 0', /* Amarelo */
+        '--color-break-short': '0, 128, 0',
+        '--color-break-long': '255, 255, 0',
+        '--border-glass': '1px solid transparent',
+        '--backdrop-filter-glass': 'none',
     },
     rondonia_dark: {
         name: 'RO Escuro',
-        '--color-primary-rgb': '0, 128, 0', /* Verde da bandeira RO */
+        '--color-primary-rgb': '0, 128, 0',
         '--color-primary-focus-rgb': '0, 100, 0',
         '--color-primary-darker-rgb': '0, 70, 0',
         '--color-primary-light-rgb': '50, 180, 50',
@@ -480,12 +526,14 @@ export const themes = {
         '--color-text-placeholder': '#6B7280',
         '--color-text-timer': '#FFFFFF',
         '--color-border-subtle-rgb': '255, 255, 255',
-        '--color-break-short': '255, 255, 0', /* Amarelo */
-        '--color-break-long': '0, 0, 139', /* Azul Marinho */
+        '--color-break-short': '255, 255, 0',
+        '--color-break-long': '0, 0, 139',
+        '--border-glass': '1px solid transparent',
+        '--backdrop-filter-glass': 'none',
     },
     roraima_light: {
         name: 'RR Claro',
-        '--color-primary-rgb': '255, 204, 0', /* Amarelo da bandeira RR */
+        '--color-primary-rgb': '255, 204, 0',
         '--color-primary-focus-rgb': '230, 180, 0',
         '--color-primary-darker-rgb': '200, 150, 0',
         '--color-primary-light-rgb': '255, 220, 70',
@@ -500,12 +548,14 @@ export const themes = {
         '--color-text-placeholder': '#9CA3AF',
         '--color-text-timer': '#111827',
         '--color-border-subtle-rgb': '0, 0, 0',
-        '--color-break-short': '0, 0, 255', /* Azul */
-        '--color-break-long': '255, 0, 0', /* Vermelho */
+        '--color-break-short': '0, 0, 255',
+        '--color-break-long': '255, 0, 0',
+        '--border-glass': '1px solid transparent',
+        '--backdrop-filter-glass': 'none',
     },
     santacatarina_light: {
         name: 'SC Claro',
-        '--color-primary-rgb': '220, 20, 60', /* Vermelho da bandeira SC */
+        '--color-primary-rgb': '220, 20, 60',
         '--color-primary-focus-rgb': '170, 14, 38',
         '--color-primary-darker-rgb': '140, 10, 30',
         '--color-primary-light-rgb': '240, 50, 90',
@@ -520,32 +570,36 @@ export const themes = {
         '--color-text-placeholder': '#AAAAAA',
         '--color-text-timer': '#000000',
         '--color-border-subtle-rgb': '0, 0, 0',
-        '--color-break-short': '255, 255, 255', /* Branco */
-        '--color-break-long': '0, 0, 139', /* Azul Marinho */
+        '--color-break-short': '255, 255, 255',
+        '--color-break-long': '0, 0, 139',
+        '--border-glass': '1px solid transparent',
+        '--backdrop-filter-glass': 'none',
     },
     saopaulo_dark: {
         name: 'SP Escuro',
-        '--color-primary-rgb': '200, 16, 46', /* Vermelho da bandeira SP */
+        '--color-primary-rgb': '200, 16, 46',
         '--color-primary-focus-rgb': '170, 14, 38',
         '--color-primary-darker-rgb': '140, 10, 30',
         '--color-primary-light-rgb': '220, 40, 70',
-        '--color-bg-main': 'radial-gradient(circle at center, #1a1a1a 0%, #000000 70%)', /* Preto */
+        '--color-bg-main': 'radial-gradient(circle at center, #1a1a1a 0%, #000000 70%)',
         '--color-bg-shell': '#111111',
         '--color-bg-panel': '#000000',
         '--color-bg-input': '#222222',
         '--color-bg-input-light': '#333333',
-        '--color-text-base': '#D1D5DB', /* Cinza claro */
-        '--color-text-header': '#FFFFFF', /* Branco */
+        '--color-text-base': '#D1D5DB',
+        '--color-text-header': '#FFFFFF',
         '--color-text-muted': '#9CA3AF',
         '--color-text-placeholder': '#6B7280',
         '--color-text-timer': '#FFFFFF',
         '--color-border-subtle-rgb': '255, 255, 255',
-        '--color-break-short': '255, 255, 255', /* Branco */
-        '--color-break-long': '0, 0, 0', /* Preto */
+        '--color-break-short': '255, 255, 255',
+        '--color-break-long': '0, 0, 0',
+        '--border-glass': '1px solid transparent',
+        '--backdrop-filter-glass': 'none',
     },
     sergipe_dark: {
         name: 'SE Escuro',
-        '--color-primary-rgb': '0, 128, 0', /* Verde da bandeira SE */
+        '--color-primary-rgb': '0, 128, 0',
         '--color-primary-focus-rgb': '0, 100, 0',
         '--color-primary-darker-rgb': '0, 70, 0',
         '--color-primary-light-rgb': '50, 180, 50',
@@ -560,12 +614,14 @@ export const themes = {
         '--color-text-placeholder': '#6B7280',
         '--color-text-timer': '#FFFFFF',
         '--color-border-subtle-rgb': '255, 255, 255',
-        '--color-break-short': '255, 255, 0', /* Amarelo */
-        '--color-break-long': '0, 0, 255', /* Azul */
+        '--color-break-short': '255, 255, 0',
+        '--color-break-long': '0, 0, 255',
+        '--border-glass': '1px solid transparent',
+        '--backdrop-filter-glass': 'none',
     },
     tocantins_light: {
         name: 'TO Claro',
-        '--color-primary-rgb': '255, 221, 0', /* Amarelo da bandeira TO */
+        '--color-primary-rgb': '255, 221, 0',
         '--color-primary-focus-rgb': '230, 199, 0',
         '--color-primary-darker-rgb': '200, 170, 0',
         '--color-primary-light-rgb': '255, 235, 77',
@@ -580,10 +636,11 @@ export const themes = {
         '--color-text-placeholder': '#AAAAAA',
         '--color-text-timer': '#000000',
         '--color-border-subtle-rgb': '0, 0, 0',
-        '--color-break-short': '0, 0, 139', /* Azul Marinho */
-        '--color-break-long': '255, 255, 255', /* Branco */
+        '--color-break-short': '0, 0, 139',
+        '--color-break-long': '255, 255, 255',
+        '--border-glass': '1px solid transparent',
+        '--backdrop-filter-glass': 'none',
     },
-// --- TEMAS DA LOJA ---
 
     // Coleção Paisagens Brasileiras
     natureza_floresta: {
@@ -596,7 +653,8 @@ export const themes = {
         '--color-text-header': '#FFFFFF',
         '--color-break-short': '255, 215, 0',
         '--color-break-long': '139, 69, 19',
-        // ... (outras propriedades)
+        '--border-glass': '1px solid transparent',
+        '--backdrop-filter-glass': 'none',
     },
     natureza_cerrado: {
         name: 'Cerrado',
@@ -607,7 +665,8 @@ export const themes = {
         '--color-text-header': '#4E342E',
         '--color-break-short': '76, 175, 80',
         '--color-break-long': '121, 85, 72',
-        // ... (outras propriedades)
+        '--border-glass': '1px solid transparent',
+        '--backdrop-filter-glass': 'none',
     },
     natureza_praias: {
         name: 'Praias',
@@ -618,7 +677,8 @@ export const themes = {
         '--color-text-header': '#004D40',
         '--color-break-short': '255, 238, 88',
         '--color-break-long': '255, 167, 38',
-        // ... (outras propriedades)
+        '--border-glass': '1px solid transparent',
+        '--backdrop-filter-glass': 'none',
     },
     natureza_pantanal: {
         name: 'Pantanal',
@@ -629,7 +689,8 @@ export const themes = {
         '--color-text-header': '#FFFFFF',
         '--color-break-short': '255, 241, 118',
         '--color-break-long': '121, 85, 72',
-        // ... (outras propriedades)
+        '--border-glass': '1px solid transparent',
+        '--backdrop-filter-glass': 'none',
     },
 
     // Coleção Abstratos & Minimalistas
@@ -642,7 +703,8 @@ export const themes = {
         '--color-text-header': '#37474F',
         '--color-break-short': '129, 212, 250',
         '--color-break-long': '165, 214, 167',
-         // ... (outras propriedades)
+        '--border-glass': '1px solid transparent',
+        '--backdrop-filter-glass': 'none',
     },
     abstrato_energia: {
         name: 'Energia',
@@ -653,7 +715,8 @@ export const themes = {
         '--color-text-header': '#FFFFFF',
         '--color-break-short': '100, 221, 23',
         '--color-break-long': '255, 171, 0',
-         // ... (outras propriedades)
+        '--border-glass': '1px solid transparent',
+        '--backdrop-filter-glass': 'none',
     },
     abstrato_estrelas: {
         name: 'Estrelas',
@@ -664,7 +727,8 @@ export const themes = {
         '--color-text-header': '#FFFFFF',
         '--color-break-short': '173, 216, 230',
         '--color-break-long': '255, 250, 205',
-         // ... (outras propriedades)
+        '--border-glass': '1px solid transparent',
+        '--backdrop-filter-glass': 'none',
     },
     abstrato_aquarela: {
         name: 'Aquarela',
@@ -675,7 +739,8 @@ export const themes = {
         '--color-text-header': '#4A148C',
         '--color-break-short': '79, 195, 247',
         '--color-break-long': '255, 204, 128',
-        // ... (outras propriedades)
+        '--border-glass': '1px solid transparent',
+        '--backdrop-filter-glass': 'none',
     },
 
     // Coleção Tecnologia & Ficção Científica
@@ -688,7 +753,8 @@ export const themes = {
         '--color-text-header': '#FFFFFF',
         '--color-break-short': '200, 200, 200',
         '--color-break-long': '100, 100, 100',
-        // ... (outras propriedades)
+        '--border-glass': '1px solid transparent',
+        '--backdrop-filter-glass': 'none',
     },
     tech_vaporwave: {
         name: 'Vaporwave',
@@ -699,7 +765,8 @@ export const themes = {
         '--color-text-header': '#FFFFFF',
         '--color-break-short': '0, 255, 255',
         '--color-break-long': '255, 255, 0',
-        // ... (outras propriedades)
+        '--border-glass': '1px solid transparent',
+        '--backdrop-filter-glass': 'none',
     },
     tech_hightech: {
         name: 'High-Tech',
@@ -710,7 +777,8 @@ export const themes = {
         '--color-text-header': '#212529',
         '--color-break-short': '40, 167, 69',
         '--color-break-long': '255, 193, 7',
-         // ... (outras propriedades)
+        '--border-glass': '1px solid transparent',
+        '--backdrop-filter-glass': 'none',
     },
     tech_cyberpunk: {
         name: 'Cyberpunk',
@@ -721,7 +789,8 @@ export const themes = {
         '--color-text-header': '#FFFFFF',
         '--color-break-short': '0, 255, 255',
         '--color-break-long': '255, 255, 0',
-        // ... (outras propriedades)
+        '--border-glass': '1px solid transparent',
+        '--backdrop-filter-glass': 'none',
     },
 
     // --- TEMAS SAZONAIS ---
@@ -734,7 +803,8 @@ export const themes = {
         '--color-text-header': '#000000',
         '--color-break-short': '3, 169, 244',
         '--color-break-long': '76, 175, 80',
-         // ... (outras propriedades)
+        '--border-glass': '1px solid transparent',
+        '--backdrop-filter-glass': 'none',
     },
     seasonal_festa_junina: {
         name: 'Festa Junina',
@@ -745,7 +815,8 @@ export const themes = {
         '--color-text-header': '#A0522D',
         '--color-break-short': '220, 20, 60',
         '--color-break-long': '34, 139, 34',
-         // ... (outras propriedades)
+        '--border-glass': '1px solid transparent',
+        '--backdrop-filter-glass': 'none',
     },
     seasonal_halloween: {
         name: 'Halloween',
@@ -756,7 +827,8 @@ export const themes = {
         '--color-text-header': '#FFFFFF',
         '--color-break-short': '103, 58, 183',
         '--color-break-long': '76, 175, 80',
-        // ... (outras propriedades)
+        '--border-glass': '1px solid transparent',
+        '--backdrop-filter-glass': 'none',
     },
     seasonal_natal: {
         name: 'Natal',
@@ -767,6 +839,54 @@ export const themes = {
         '--color-text-header': '#FFFFFF',
         '--color-break-short': '255, 215, 0',
         '--color-break-long': '255, 255, 255',
-        // ... (outras propriedades)
+        '--border-glass': '1px solid transparent',
+        '--backdrop-filter-glass': 'none',
+    },
+
+    // --- COLEÇÃO GLASS ---
+    glass_dark: {
+        name: 'Glass Escuro',
+        '--color-primary-rgb': '0, 191, 255',       /* Um azul vibrante */
+        '--color-primary-focus-rgb': '0, 160, 220',
+        '--color-primary-darker-rgb': '0, 130, 180',
+        '--color-primary-light-rgb': '80, 210, 255',
+        '--color-bg-main': 'linear-gradient(135deg, #1D2B64 0%, #F8CDDA 100%)',
+        '--color-bg-shell': 'rgba(25, 25, 40, 0.65)',
+        '--color-bg-panel': 'rgba(17, 24, 39, 0.7)',
+        '--color-bg-input': 'rgba(55, 65, 81, 0.7)',
+        '--color-bg-input-light': 'rgba(75, 85, 99, 0.7)',
+        '--color-text-base': '#F3F4F6',
+        '--color-text-header': '#FFFFFF',
+        '--color-text-muted': '#A0AEC0',
+        '--color-text-placeholder': '#9CA3AF',
+        '--color-text-timer': '#FFFFFF',
+        '--color-border-subtle-rgb': '255, 255, 255',
+        '--color-break-short': '255, 221, 0',
+        '--color-break-long': '255, 0, 0',
+        '--border-glass': '1px solid rgba(255, 255, 255, 0.15)',
+        '--backdrop-filter-glass': 'blur(20px)',
+    },
+
+    glass_light: {
+        name: 'Glass Claro',
+        '--color-primary-rgb': '200, 16, 120',      /* Um rosa/magenta */
+        '--color-primary-focus-rgb': '180, 14, 100',
+        '--color-primary-darker-rgb': '150, 10, 80',
+        '--color-primary-light-rgb': '220, 50, 150',
+        '--color-bg-main': 'linear-gradient(135deg, #a8c0ff 0%, #3f2b96 100%)',
+        '--color-bg-shell': 'rgba(255, 255, 255, 0.45)',
+        '--color-bg-panel': 'rgba(248, 248, 255, 0.6)',
+        '--color-bg-input': 'rgba(255, 255, 255, 0.6)',
+        '--color-bg-input-light': 'rgba(229, 231, 235, 0.6)',
+        '--color-text-base': '#374151',
+        '--color-text-header': '#111827',
+        '--color-text-muted': '#4A5568',
+        '--color-text-placeholder': '#6B7280',
+        '--color-text-timer': '#111827',
+        '--color-border-subtle-rgb': '0, 0, 0',
+        '--color-break-short': '255, 0, 0',
+        '--color-break-long': '0, 0, 139',
+        '--border-glass': '1px solid rgba(255, 255, 255, 0.8)',
+        '--backdrop-filter-glass': 'blur(16px)',
     },
 };
